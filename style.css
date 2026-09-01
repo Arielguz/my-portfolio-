@@ -1,0 +1,24 @@
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.section-divider {
+  border-bottom: 3px solid #dee2e6;
+  margin-bottom: 1.5rem;
+}
+
+/* Heart icon in navbar - white in dark mode */
+[data-bs-theme="dark"] .navbar-brand img {
+  filter: brightness(0) invert(1);
+}
+
+/* Make "Why Move With Us?" section brighter */
+#featured-3 h2 {
+  color: #dee2e6;
+}
+
+#featured-3 .border-bottom {
+  border-color: #dee2e6 !important;
+}
